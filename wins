@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Jasa Pintu & Jendela Aluminium Jabodetabek | Win’s Solution</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Win’s Solution melayani pembuatan dan pemasangan pintu serta jendela aluminium di Jakarta, Bekasi, Depok, Tangerang, dan Bogor. Rapi, kuat, dan harga bersaing. Hubungi 087880394222">
+
+  <meta name="keywords" content="pintu aluminium jakarta, jendela aluminium bekasi, kusen aluminium depok, pintu sliding tangerang, jasa aluminium bogor">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      background: #fff;
+      padding: 30px 20px;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    .box {
+      background: #fafafa;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    .wa {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+    }
+    .wa a {
+      background: #25D366;
+      color: white;
+      padding: 14px 22px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Win’s Solution</h1>
+  <p>Jasa Pintu & Jendela Aluminium Jabodetabek</p>
+</header>
+
+<section>
+
+  <div class="box">
+    <h2>Spesialis Aluminium</h2>
+    <p>
+      Win’s Solution melayani pembuatan dan pemasangan
+      pintu aluminium, jendela aluminium, dan kusen aluminium
+      untuk rumah, ruko, kantor, dan bangunan lainnya.
+    </p>
+    <p>
+      Pengerjaan rapi, bahan kuat, dan harga bersaing.
+    </p>
+  </div>
+
+  <div class="box">
+    <h2>Layanan Kami</h2>
+    <ul>
+      <li>Pintu Aluminium</li>
+      <li>Jendela Aluminium</li>
+      <li>Pintu Sliding Aluminium</li>
+      <li>Kusen Aluminium</li>
+      <li>Custom ukuran & model</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>Melayani Area</h2>
+    <p>
+      Jakarta • Bekasi • Depok • Tangerang • Bogor <br>
+      (Jabodetabek)
+    </p>
+  </div>
+
+  <div class="box">
+    <h2>Hubungi Kami</h2>
+    <p>
+      Konsultasi & survey GRATIS.<br>
+      Hubungi kami melalui WhatsApp:
+    </p>
+    <p><b>0878-8039-4222</b></p>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Win’s Solution – Jasa Pintu & Jendela Aluminium Jabodetabek
+</footer>
+
+<div class="wa">
+  <a href="https://wa.me/6287880394222" target="_blank">
+    💬 Chat WhatsApp
+  </a>
+</div>
+
+</body>
+</html>
