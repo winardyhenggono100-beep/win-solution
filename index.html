@@ -1,62 +1,104 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Win Solution Aluminium | Jasa Kusen, Pintu & Jendela Aluminium Jabodetabek</title>
+<title>Win Solution Aluminium | Spesialis Aluminium Jabodetabek</title>
 
-<meta name="description" content="Win Solution Aluminium melayani jasa pembuatan dan pemasangan kusen, pintu, jendela, kanopi, shower screen dan partisi aluminium. Area Jakarta, Bogor, Depok, Tangerang, Bekasi.">
-<meta name="keywords" content="jasa aluminium, kusen aluminium, pintu aluminium, jendela aluminium, kanopi aluminium, shower screen, partisi aluminium, aluminium Jakarta, aluminium Bekasi">
+<meta name="description" content="Win Solution Aluminium melayani jasa kusen aluminium, pintu aluminium, jendela aluminium, kanopi kaca, shower screen dan sekat kaca area Jabodetabek. Profesional, rapi dan terpercaya.">
+<meta name="keywords" content="jasa aluminium jakarta, jasa aluminium bekasi, jasa aluminium depok, jasa aluminium tangerang, jasa aluminium bogor, kusen aluminium, pintu aluminium, jendela aluminium, kanopi kaca, shower screen">
 <meta name="author" content="Win Solution Aluminium">
 
 <style>
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #f5f5f5;
-    line-height: 1.6;
+    background: #f2f4f7;
+    line-height: 1.7;
+    color:#333;
 }
 header {
-    background: #1f2933;
+    background: linear-gradient(135deg,#0f172a,#1f2933);
     color: white;
-    padding: 35px 20px;
+    padding: 60px 20px;
     text-align: center;
 }
+header h1 {
+    margin-bottom:10px;
+    font-size:32px;
+}
+header p {
+    max-width:700px;
+    margin:auto;
+    font-size:18px;
+}
 section {
-    padding: 22px;
+    padding: 30px 20px;
     background: white;
-    margin: 15px;
-    border-radius: 10px;
+    margin: 18px auto;
+    border-radius: 12px;
+    max-width: 1100px;
 }
 h2 {
     color: #1f2933;
+    margin-bottom:10px;
+}
+.subtext {
+    color:#555;
+    margin-bottom:20px;
 }
 ul {
     padding-left: 18px;
 }
-img {
-    width: 100%;
-    border-radius: 10px;
-    object-fit: cover;
+ul li {
+    margin-bottom:8px;
 }
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
     gap: 14px;
 }
+.gallery img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+.highlight {
+    background:#f8fafc;
+    border-left:5px solid #16a34a;
+    padding:15px;
+    border-radius:8px;
+    margin-top:15px;
+}
+.features {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+}
+.features div {
+    background:#f8fafc;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.05);
+}
 .contact {
     font-size: 17px;
+    text-align:center;
+}
+.contact strong {
+    font-size:18px;
 }
 button {
     background: #16a34a;
     color: white;
     border: none;
-    padding: 15px 22px;
+    padding: 16px 28px;
     font-size: 16px;
-    border-radius: 8px;
+    border-radius: 50px;
     cursor: pointer;
+    margin-top:15px;
 }
 button:hover {
     opacity: 0.9;
@@ -65,8 +107,26 @@ footer {
     background: #1f2933;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 18px;
     font-size: 14px;
+    margin-top:30px;
+}
+
+/* Tombol WhatsApp melayang */
+.wa-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+.wa-float a {
+    background: #25D366;
+    color: white;
+    padding: 14px 22px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 </style>
 </head>
@@ -75,69 +135,112 @@ footer {
 
 <header>
     <h1>Win Solution Aluminium</h1>
-    <p>Jasa Aluminium Profesional Jabodetabek</p>
+    <p>Spesialis Kusen, Pintu, Jendela, Kanopi & Shower Screen Aluminium Area Jabodetabek</p>
 </header>
 
 <section>
-    <h2>Tentang Kami</h2>
-    <p>
-        Win Solution Aluminium melayani jasa pembuatan dan pemasangan aluminium seperti kusen, pintu, jendela, kanopi, shower screen, dan partisi aluminium. 
-        Kami melayani area Jakarta, Bogor, Depok, Tangerang, dan Bekasi dengan hasil rapi, kuat, dan bergaransi pengerjaan.
-    </p>
-</section>
+<h2>Tentang Kami</h2>
+<p class="subtext">
+Win Solution Aluminium adalah jasa aluminium profesional yang melayani pembuatan dan pemasangan kusen aluminium, pintu aluminium, jendela aluminium, kanopi kaca, shower screen, dan berbagai pekerjaan aluminium & kaca lainnya.
+</p>
 
-<section>
-    <h2>Layanan Kami</h2>
-    <ul>
-        <li>Kusen aluminium</li>
-        <li>Pintu aluminium & sliding door</li>
-        <li>Jendela aluminium</li>
-        <li>Kanopi kaca & besi</li>
-        <li>Shower screen kaca</li>
-        <li>Sekat kaca & partisi aluminium</li>
-    </ul>
-</section>
+<p>
+Kami berpengalaman menangani proyek rumah tinggal, ruko, kantor, dan apartemen.  
+Setiap pekerjaan kami kerjakan dengan perhitungan yang matang, bahan berkualitas, dan pengerjaan yang rapi.
+</p>
 
-<section>
-<section>
-<h2>Galeri Hasil Pekerjaan</h2>
-
-<div class="gallery">
-
-<img src="Canopy-kaca.jpg">
-<img src="canopy-kaca-aluminium.jpg">
-<img src="rangka-besi-canopy.jpg">
-
-<img src="kitchen-set-aluminium.jpg">
-<img src="pintu-sliding.jpg">
-<img src="pintu-kamar-mandi.jpg">
-
-<img src="jendela-kaca-aluminium.jpg">
-
-<img src="pintu-jendela-railing-kaca.jpg">
-<img src="railing-void.jpg">
-
-<img src="sekat-kaca-kantor.jpg">
-<img src="kaca-sekat-walking-closet.jpg">
-
+<div class="highlight">
+✅ Konsultasi gratis & bisa survei lokasi<br>
+✅ Pengerjaan rapi, rangka kuat & presisi<br>
+✅ Bisa custom sesuai kebutuhan dan budget<br>
+✅ Melayani Jakarta, Bogor, Depok, Tangerang & Bekasi
 </div>
 </section>
 
-<section class="contact">
-    <h2>Hubungi Kami</h2>
-    <p>
-        📞 WhatsApp: <strong>0878-8039-4222</strong><br>
-        📍 Area layanan: Jabodetabek
-    </p>
+<section>
+<h2>Layanan Kami</h2>
+<ul>
+<li>🔹 Kusen aluminium rumah & gedung</li>
+<li>🔹 Pintu aluminium & pintu sliding</li>
+<li>🔹 Jendela aluminium berbagai model</li>
+<li>🔹 Kanopi kaca & kanopi besi</li>
+<li>🔹 Shower screen kaca kamar mandi</li>
+<li>🔹 Sekat kaca kantor & partisi aluminium</li>
+<li>🔹 Railing kaca & pekerjaan aluminium custom</li>
+</ul>
+</section>
 
-    <a href="https://wa.me/6287880394222" target="_blank">
-        <button>Chat WhatsApp Sekarang</button>
-    </a>
+<section>
+<h2>Kenapa Pilih Win Solution Aluminium?</h2>
+<div class="features">
+<div>✔ Berpengalaman & fokus di bidang aluminium</div>
+<div>✔ Hasil kerja rapi & presisi</div>
+<div>✔ Mengutamakan kualitas bahan</div>
+<div>✔ Bisa custom desain & ukuran</div>
+<div>✔ Respon cepat & komunikatif</div>
+<div>✔ Harga bersaing & transparan</div>
+</div>
+</section>
+
+<section>
+<h2>Galeri Hasil Pekerjaan</h2>
+<p class="subtext">
+Beberapa dokumentasi hasil pekerjaan Win Solution Aluminium sebagai gambaran kualitas pengerjaan kami.
+</p>
+
+<div class="gallery">
+<img src="Canopy-kaca.jpg">
+<img src="canopy-kaca-aluminium.jpg">
+<img src="rangka-besi-canopy.jpg">
+<img src="kitchen-set-aluminium.jpg">
+<img src="pintu-sliding.jpg">
+<img src="pintu-kamar-mandi.jpg">
+<img src="jendela-kaca-aluminium.jpg">
+<img src="pintu-jendela-railing-kaca.jpg">
+<img src="railing-void.jpg">
+<img src="sekat-kaca-kantor.jpg">
+<img src="kaca-sekat-walking-closet.jpg">
+</div>
+</section>
+
+<section>
+<h2>Area Layanan</h2>
+<p>
+Kami melayani jasa aluminium untuk wilayah:<br>
+<strong>Jakarta, Bekasi, Depok, Tangerang, Bogor dan sekitarnya.</strong><br><br>
+Pencarian populer:<br>
+jasa aluminium Jakarta, jasa aluminium Bekasi, jasa aluminium Depok, jasa aluminium Tangerang, jasa aluminium Bogor.
+</p>
+</section>
+
+<section class="contact">
+<h2>Hubungi Kami</h2>
+<p>
+<strong>📞 WhatsApp / Telepon:</strong><br>
+0878-8039-4222
+</p>
+<p>
+<strong>📍 Area layanan:</strong><br>
+Jabodetabek
+</p>
+<p>
+Silakan hubungi kami untuk konsultasi, estimasi harga, dan survei lokasi.  
+Kami siap membantu mewujudkan kebutuhan aluminium Anda.
+</p>
+
+<a href="https://wa.me/6287880394222" target="_blank">
+<button>Chat WhatsApp Sekarang</button>
+</a>
 </section>
 
 <footer>
-    <p>© 2026 Win Solution Aluminium — Jasa Aluminium Jabodetabek</p>
+<p>© 2026 Win Solution Aluminium — Spesialis Aluminium Jabodetabek</p>
 </footer>
+
+<!-- Tombol WhatsApp Melayang -->
+<div class="wa-float">
+<a href="https://wa.me/6287880394222" target="_blank">💬 WhatsApp</a>
+</div>
 
 </body>
 </html>
